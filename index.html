@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Login / Sign Up Form</title>
+    <link rel="stylesheet" href="login&signup.css">
+
+<body>
+    <div class="forms">
+        <form class="login_form" id="login">
+            <h1>Log In to <br>Love Nature Organisation</br></h1>
+
+            <div class="display_message display_message_error"></div>
+
+            <div class="categorize_form_input">
+                <input type="text" class="form_input" id="login_username" placeholder="Enter Username">
+                <div class="form_input_errormessage"></div>
+            </div>
+
+            <div class="categorize_form_input">
+                <input type="password" class="form_input" placeholder="Enter Password">
+                <div class="form_input_errormessage"></div>
+            </div>
+
+            <button class="form_button"><a href="loginsuccessful.html" type="submit">Log In</button>
+
+            <h4 class="form_resetpassword_text">
+                <a href="#" class="form_link">Reset password</a>
+            </h4>
+
+            <h4 class="form_tosignup_text">
+                <a class="form_link" href="#" id="linksignup">Create a new account</a>
+            </h4>
+
+        </form>
+
+        <form class="signupform_hidden" id="signup">
+            <h1>Create Account for<br>Love Nature Organisation</br></h1>
+
+            <div class="display_message display_message_error"></div>
+
+            <div class="categorize_form_input">
+                <input type="text" id="signup_username" class="form_input" placeholder="Enter Username">
+                <div class="form_input_errormessage"></div>
+            </div>
+
+            <div class="categorize_form_input">
+                <input type="text" id="signup_email" class="form_input" placeholder="Enter Email Address">
+                <div class="form_input_errormessage"></div>
+            </div>
+
+            <div class="categorize_form_input">
+                <input type="password" id="signup_password" class="form_input" placeholder="Enter Password">
+                <div class="form_input_errormessage"></div>
+            </div>
+
+            <div class="categorize_form_input">
+                <input type="password" id="signup_confirmpassword" class="form_input" placeholder="Confirm Your Password">
+                <div class="form_input_errormessage"></div>
+            </div>
+
+            <button class="form_button"><a href="signupsuccessful.html" type="submit">Create Account</button>
+
+            <h4 class="form_tologin_text">
+                <a class="form_link" href="#" id="linklogin">Already have an account? Sign in</a>
+            </h4>
+        </form>
+    </div>
+    <script src="login&signup.js"></script>
+</body>
+</html>

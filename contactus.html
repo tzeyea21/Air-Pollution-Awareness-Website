@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<title>Air Polution</title>
+<meta charset="utf-8">
+    
+<body style="background-color:rgb(223, 255, 245)"> 
+    <nav>
+        <label class="logo">Love Nature Organisation</label>
+        <ul>
+            <li><a class="active" href="Overview.html">Overview</a></li>   
+            <li><a href="airpollution.html">Air Pollution ⮟</a>
+                <ul class="dropdown">
+                        <li><a href="causesandeffects.html">Causes and Effects</a></li>
+                        <li><a href="waystoovercome.html">Ways to Overcome</a></li>      
+                </ul>
+            </li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            </ul> 
+    </nav>
+    
+    <div class="contact_us">
+    <form id="form" action="./">
+        <h1>Contact Us</h1>
+        <br>
+        <p>Thank you for reaching out to us! Feel free to contact us if you have any enquiries or wish to make contributions for the mother nature with us.</p>
+
+        <div class="categorize_contactus_input">
+            <label for="Username">Username</label>
+            <input id="username" name="username" type="text" placeholder="Enter your username">
+            <div class="error"></div>
+        </div>
+
+        <div class="categorize_contactus_input">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="text" placeholder="Enter your email address">
+            <div class="error"></div>
+        </div>
+        
+        <div class="categorize_contactus_input">
+            <label for="mobilenumber">Mobile Number</label>
+            <input id="mobilenum" name="mobilenum" type="text" placeholder="Enter your mobile number">
+            <div class="error"></div>
+        </div>
+
+        <textarea id="messages" rows="5" placeholder="Kindly leave your messages here" required></textarea>
+
+        <input type="submit" id="submit_button" value="Submit">
+        <p id="success"></p>
+    </form>
+</div>
+</body>
+<script src="contactus.js"></script>
+</html>
